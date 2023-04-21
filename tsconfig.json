@@ -3,8 +3,8 @@
 		"strict": true,
 		"skipLibCheck": true,
 
-		"target": "esnext",
-		"module": "esnext",
+		"target": "es6",
+		"module": "es6",
 		"declaration": false,
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
@@ -13,7 +13,7 @@
 
 		"forceConsistentCasingInFileNames": true,
 		"jsx": "preserve",
-		"lib": ["esnext", "dom"],
+		"lib": ["es6", "dom"],
 		"types": ["node"]
 	},
 	"exclude": ["node_modules", "dist", "examples"]
